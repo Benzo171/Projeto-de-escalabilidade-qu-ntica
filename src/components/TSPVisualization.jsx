@@ -23,7 +23,7 @@ const distances = {
 // Todas as rotas possíveis para 4 cidades (começando e terminando em Paulista)
 const allRoutes = [
   [0, 1, 2, 3, 0], // Paulista → Recife → Jaboatão → Cabo → Paulista
-  [0, 1, 3, 2, 0], // Paulista → Recife → Cabo → Jaboatão → Paulista
+  [1, 0, 3, 2, 0], // Recife → Paulista → Cabo → Jaboatão → Paulista
   [0, 2, 1, 3, 0], // Paulista → Jaboatão → Recife → Cabo → Paulista
   [0, 2, 3, 1, 0], // Paulista → Jaboatão → Cabo → Recife → Paulista
   [0, 3, 1, 2, 0], // Paulista → Cabo → Recife → Jaboatão → Paulista

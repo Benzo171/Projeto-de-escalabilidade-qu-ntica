@@ -14,15 +14,15 @@ function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b">
+      <header className="bg-black shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
-            <div className="flex items-center space-x-3">
+            <div className="flex items-right space-x-3">
               <Zap className="h-8 w-8 text-purple-600" />
-              <h1 className="text-2xl font-bold text-gray-900">Escalabilidade Quântica</h1>
+              <h1 className="text-2xl font-bold text-white ">Escalabilidade Quântica</h1>
             </div>
             <nav className="flex space-x-6">
-              <Link to="/formulas" className="text-gray-600 hover:text-purple-600 transition-colors">
+              <Link to="/formulas" className="text-white hover:text-purple-600 transition-colors">
                 Fórmulas Matemáticas
               </Link>
             </nav>
